@@ -38,10 +38,25 @@ body {
 button {
   background: #ccc3c3;
   color: #074335;
-
   padding: 34px 50px;
   border-color: aqua;
   border-radius: 40px 38px 39px 11px;
   font-size: 30px;
   cursor: pointer;
+}
+
+@media (max-width:726px) {
+    .container {
+        width: 300px;
+        margin: 0 auto;
+        margin-top: 70px;
+      }
+
+      .result {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50%;
+        font-size: 40px;
+        color: aliceblue;
+      }
 }
