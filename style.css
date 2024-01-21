@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+.fst {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.snd {
+    display: flex;
+    /* margin: 50%; */
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.result {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+button {
+    padding: 34px 50px;
+    border-color: aqua;
+    border-radius: 40px 38px 39px 11px;
+    font-size: 30px;
+}
+
